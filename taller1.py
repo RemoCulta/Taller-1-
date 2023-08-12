@@ -16,3 +16,16 @@ while True:
     if opcion == 1:
         print (" ")
         print ("Resultado: La suma de", Numero_uno  ,"+",Numero_Dos, "es igual a", Numero_uno + Numero_Dos)
+    elif opcion == 2:
+        print(" ")
+        print ("Resultado: La resta de", Numero_uno  ,"-",Numero_Dos, "es igual a", Numero_uno - Numero_Dos)
+    elif opcion == 3:
+        print(" ")
+        print ("Resultado: El producto de ", Numero_uno  ,"*",Numero_Dos, "es igual a", Numero_uno * Numero_Dos)
+    elif opcion == 4:
+        print("")
+        print ("Resultado: La divicion  de", Numero_uno  ,"/",Numero_Dos, "es igual a", Numero_uno / Numero_Dos)
+    elif opcion==5:
+        break
+    else: 
+        print("opccion invalida")
