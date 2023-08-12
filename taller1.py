@@ -9,7 +9,9 @@ while True:
            2) Resta
            3) Multiplicacion
            4) Divicion
-           5) Salir 
+           5) cambiar numeros
+           6) salir 
+
            
            """)
     opcion = int(input("Elige una opccion: "))
@@ -26,6 +28,11 @@ while True:
         print("")
         print ("Resultado: La divicion  de", Numero_uno  ,"/",Numero_Dos, "es igual a", Numero_uno / Numero_Dos)
     elif opcion==5:
-        break
+        Numero_uno = float(input("Escribe el primer numero: "))
+        Numero_Dos = float(input("Escribe el segundo numero: "))
+    elif opcion == 6: 
+        break 
+    
+        
     else: 
         print("opccion invalida")
