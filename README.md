@@ -1,1 +1,1 @@
-# Taller-1-
+# Taller-1- Esta calculadora solicita al usuario dos numeros al iniciar el programa, despues de solicita seleccinar una de las 6 opciones que tiene dispoible para hacer una operacion matematica con los numero que se le solicitaron al usuario al inicio del programa, la opcion 5 y 6 no son operaciones matematicas, la opcion 5 es por si el usuario quiere cambiar los numeros, y la opcion 6 se usa para salir de la calculadora.
